@@ -54,40 +54,57 @@ Call to Action Size
 ********/
 
 .left-container {
-    
-    border: 2px solid red;
     bottom: 700px;
     z-index: 100;
 }
 .headline {
     position: absolute;
-    border: 2px solid red;
     z-index: 100;
     color: white;
-    padding: 2em;
     width: 20em;
     margin-top: 10em;
     margin-left: 10em;
-    
 }
 .headline h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .text {
     position: absolute;
-    border: 2px solid red;
     z-index: 100;
     box-sizing: border-box;
     color: white;
     width: 20em;
     margin-top: 20em;
     margin-left: 10em;
-}
-.button {
-    position: absolute;
-    border: 2px solid red;
-    z-index: 100;
-    margin-top: 45em;
-    margin-left: 10em;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
+
+
+.button {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+.button {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   position: absolute;
+   z-index: 100;
+   margin-top: 45em;
+   margin-left: 10em;
+ }
+ .button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ a.button{
+    text-decoration: none;
+    color: white;
+ }
